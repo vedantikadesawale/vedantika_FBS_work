@@ -6,15 +6,15 @@ void main(){
 
         printf("Distinction");
 
-    }else if(marks > 65 && marks < 75){
+    }else if(marks > 65 && marks < 76){
 
         printf("First Class");
 
-    }else if(marks > 55 && marks < 65){
+    }else if(marks > 55 && marks < 66){
 
         printf("Second Class");
 
-    }else if(marks > 40 && marks < 55 ){
+    }else if(marks > 40 && marks < 56 ){
 
         printf("Pass Class");
 
@@ -22,4 +22,5 @@ void main(){
 
          printf("Fail");
     }
+
 }
