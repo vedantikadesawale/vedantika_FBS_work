@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-float marks(int v,int w, int x, int y, int z);
+float marks(float v,float w, float x, float y, float z);
 
-float marks(int v,int w, int x, int y, int z){
+float marks(float v,float w, float x, float y, float z){
    
 
     float totalMarks, percentage;
@@ -27,4 +27,5 @@ void main(){
     float result = marks(Eng,Mar,Math,Sci,His);
     printf("Percentage %0.2f%%", result);
   
+
 }
