@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-float triangle(int x, int y);
+float triangle(float x, float y);
  
-float triangle(int x, int y){
+float triangle(float x, float y){
     
     float area;
 
@@ -17,4 +17,5 @@ void main(){
     
     float res = triangle(base,height);
     printf("Area of triangle is %0.2f", res);
+
 }
