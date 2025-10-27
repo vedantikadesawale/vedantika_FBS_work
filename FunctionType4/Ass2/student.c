@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-float student(int x, char a);
+float student(float x, char a);
 
-float student(int x, char a){
+float student(float x, char a){
 
     float discount = 0.0, finalAmount;
     
@@ -46,3 +46,4 @@ void main() {
     printf("Final Amount is: %.2f",res);
     
 }
+
