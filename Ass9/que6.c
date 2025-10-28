@@ -1,0 +1,44 @@
+//Accept array and print only prime numbers of array.
+
+#include<stdio.h>
+
+void primeElements(int brr[],int a){
+
+    printf("Prime numbers in the array:\n");
+    for(int i=0; i<a;i++){
+    int num = brr[i];
+    int isPrime = 1;
+
+    if(num <= 1){
+        isPrime = 0;
+    }else{
+        for(int j = 2; j <= num/2; j++){
+            if(num % j ==0){
+                isPrime = 0;
+                break;
+            }
+        }
+    }
+    if(isPrime == 1){
+        printf("%d ", num);
+    }
+}
+}
+void main(){
+    int s1,s2,s3;
+    printf("Enter the size of arr[]: ");
+    scanf("%d",&s1);
+
+    int arr[s1];
+
+
+printf("Enter the elements of arr[]:\n");
+
+for(int i=0; i<s1; i++){
+    scanf("%d",&arr[i]);
+}
+
+primeElements(arr,s1);
+
+
+}
