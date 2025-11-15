@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int operate(int x, int y, char a);
+void operate(int x, int y, char a);
 
-int operate(int x, int y, char a){
+void operate(int x, int y, char a){
    
      if (a == '+') {
         printf("Result: %d\n", x + y);
@@ -39,4 +39,5 @@ void main() {
     operate(num1, num2, op);
 
 }
+
 
