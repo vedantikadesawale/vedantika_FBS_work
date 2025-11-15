@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int posNeg(int x);
+void posNeg(int x);
 
-int posNeg(int x){
+void posNeg(int x){
     
     if(x > 0){
         printf("Positive");
@@ -21,4 +21,5 @@ void main(){
     scanf("%d", &num);
 
     posNeg(num);
+
 }
