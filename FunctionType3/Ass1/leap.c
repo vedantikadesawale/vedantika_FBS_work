@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int leap(int x);
+void leap(int x);
 
-int leap(int x){
+void leap(int x){
     
 
     if(x % 4 == 0){
@@ -19,4 +19,5 @@ void main(){
     scanf("%d", &year);
     
     leap(year);
+
 }
