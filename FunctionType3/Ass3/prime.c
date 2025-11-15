@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int prime(int x);
+void prime(int x);
 
-int prime(int x){
+void prime(int x){
    
     int i = 2;  
 
@@ -27,4 +27,5 @@ void main() {
     
     prime(n);
 }
+
 
