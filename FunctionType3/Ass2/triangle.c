@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int triangle(int x, int y, int z);
+void triangle(int x, int y, int z);
 
-int triangle(int x, int y, int z){
+void triangle(int x, int y, int z){
 
     if(x == y && y == z){
         printf("Triangle is Equilateral\n");
@@ -19,4 +19,5 @@ void main(){
     scanf("%d %d %d",&a,&b,&c);
 
     triangle(a,b,c);    
+
 }
