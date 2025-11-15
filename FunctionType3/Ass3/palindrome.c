@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int palindrome(int x);
+void palindrome(int x);
 
-int palindrome(int x){
+void palindrome(int x){
      
     int original = x, reversed = 0, rem;
 
@@ -27,3 +27,4 @@ void main() {
 
     palindrome(n);
 }
+
