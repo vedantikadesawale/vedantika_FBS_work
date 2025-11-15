@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int vote(int x);
+void vote(int x);
 
-int vote(int x){
+void vote(int x){
 
 
     if(x>=18){
@@ -21,5 +21,6 @@ void main(){
     scanf("%d", &age);
 
     vote(age);
+
 
 }
