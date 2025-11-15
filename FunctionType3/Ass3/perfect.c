@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int perfect(int x);
+void perfect(int x);
 
-int perfect(int x){
+void perfect(int x){
    
     int i = 1, sum = 0;
 
@@ -26,6 +26,7 @@ void main() {
     
     perfect(n);
 }
+
 
 
 
