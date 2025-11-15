@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int hrs(int x);
+void hrs(int x);
 
 
-int hrs(int x){
+void hrs(int x){
    
     int hours, remaining;
 
@@ -17,6 +17,7 @@ void main() {
     int minutes = 135;
     hrs(minutes);
 }
+
 
 
 
