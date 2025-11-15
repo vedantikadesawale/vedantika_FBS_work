@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int factorial(int x);
+void factorial(int x);
 
-int factorial(int x){
+void factorial(int x){
     
     int i = 1;
     int fact = 1;
@@ -21,4 +21,5 @@ void main(){
     scanf("%d", &num);
 
     factorial(num);
+
 }
