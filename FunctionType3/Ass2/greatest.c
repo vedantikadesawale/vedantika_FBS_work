@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int greatest(int x, int y, int z);
+void greatest(int x, int y, int z);
 
-int greatest(int x, int y, int z){
+void greatest(int x, int y, int z){
    
     if(x >= y && x >= z) {
          printf("a is gratest\n");
@@ -23,3 +23,4 @@ void main(){
 
     greatest(a, b, c);
 }
+
