@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int palindrome(int y);
+void palindrome(int y);
 
-int palindrome(int y){
+void palindrome(int y){
     
     int rev , d1, d2, d3;
 
@@ -26,5 +26,6 @@ void main(){
     scanf("%d",&num);
     
     palindrome(num);
+
 
 }
