@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int marks(int x);
+void marks(int x);
 
-int marks(int x){ 
+void marks(int x){ 
    
     if(x > 75){
          printf("Distinction\n");
@@ -27,3 +27,4 @@ void main(){
     marks(num);
     
 }
+
