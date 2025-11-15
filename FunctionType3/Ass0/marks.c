@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-float marks(float v,float w, float x, float y, float z);
+void marks(float v,float w, float x, float y, float z);
 
-float marks(float v,float w, float x, float y, float z){
+void marks(float v,float w, float x, float y, float z){
    
 
     float totalMarks, percentage;
@@ -26,3 +26,4 @@ void main(){
     
 
 }
+
