@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int armstrong(int x);
+void armstrong(int x);
 
-int armstrong(int x){
+void armstrong(int x){
     
     int original, remainder, result = 0;
 
@@ -28,3 +28,4 @@ void main() {
 
     armstrong(n);
 }
+
