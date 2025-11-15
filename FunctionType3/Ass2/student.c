@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-float student(float x, char a);
+void student(float x, char a);
 
-float student(float x, char a){
+void student(float x, char a){
 
     float discount = 0.0, finalAmount;
     
@@ -45,4 +45,5 @@ void main() {
 
     
 }
+
 
