@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-float salary(float x);
+void salary(float x);
 
-float salary(float x){
+void salary(float x){
 
 float da, ta, hra, total;
 
@@ -35,3 +35,4 @@ void main() {
 
     salary(basic);
 }
+
