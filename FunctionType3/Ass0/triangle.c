@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-float triangle(float x, float y);
+void triangle(float x, float y);
  
-float triangle(float x, float y){
+void triangle(float x, float y){
     
     float area;
 
@@ -20,3 +20,4 @@ void main(){
     
 
 }
+
