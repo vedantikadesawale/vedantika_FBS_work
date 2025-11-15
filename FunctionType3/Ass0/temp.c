@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-float temp(float x);
+void temp(float x);
 
-float temp(float x){
+void temp(float x){
     
     float F;
 
@@ -14,4 +14,5 @@ float temp(float x){
 void main(){
     float C = 37.0;
     temp(C);
+
 }
