@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int square(int x);
-int cube(int x);
+void squCube(int x);
 
-int squCube(int x){
+
+void squCube(int x){
     
     int square;
     int cube;
@@ -20,3 +20,4 @@ void main() {
     int num = 2;
     squCube(num);  
 }
+
