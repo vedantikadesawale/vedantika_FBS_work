@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int firstLast(int x);
+void firstLast(int x);
 
-int firstLast(int x){
+void firstLast(int x){
     
     int first, last, sum;
 
@@ -27,3 +27,4 @@ void main() {
 
     firstLast(n);
 }
+
