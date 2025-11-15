@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int divisible(int x);
+void divisible(int x);
 
-int divisible(int x){
+void divisible(int x){
     
     if (x % 3 == 0 && x % 5 == 0) {
        printf("Divisible by both\n");
@@ -26,3 +26,4 @@ void main() {
     divisible(num);
         
 }
+
