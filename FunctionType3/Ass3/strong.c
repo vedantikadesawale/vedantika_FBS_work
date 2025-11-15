@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int strong(int x);
+void strong(int x);
 
-int strong(int x){
+void strong(int x){
    
     int sum = 0, fact, rem, i;
     int original = x;
@@ -33,4 +33,5 @@ void main(){
     scanf("%d", &n);
     
     strong(n);
+
   }
