@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int reverse(int x);
+void reverse(int x);
 
-int reverse(int x){
+void reverse(int x){
     
     int rev = 0, d1;
 
@@ -21,4 +21,5 @@ void main(){
     scanf("%d", &num);
 
     reverse(num);
+
 }
