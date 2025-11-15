@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int sum(int x);
+void sum(int x);
 
-int sum(int x){ 
+void sum(int x){ 
     
     int rem;
     int sum =0;
@@ -23,4 +23,5 @@ void main(){
     scanf("%d", &num);
 
     sum(num);
+
 }
