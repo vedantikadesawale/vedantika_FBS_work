@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int age(int x);
+void age(int x);
 
-int age(int x){
+void age(int x){
 
     if (x < 12) {
         printf("Child\n");
@@ -25,3 +25,4 @@ void main() {
     age(num);
 
 }
+
