@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int sum(int x, int y);
+void sum(int x, int y);
 
-int sum(int x, int y){
+void sum(int x, int y){
     
     int sum = 0;
 
@@ -23,4 +23,5 @@ void main(){
     scanf("%d",&end);
 
     sum(start,end);
+
 }
