@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-int evenOdd(int x);
+void evenOdd(int x);
 
 
-int evenOdd(int x){
+void evenOdd(int x){
 
     if(x % 2 == 0){
         printf("Number %d even",x);
@@ -19,4 +19,5 @@ void main(){
     scanf("%d", &num);
     evenOdd(num);
 }
+
 
