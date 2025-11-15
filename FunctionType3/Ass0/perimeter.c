@@ -1,8 +1,8 @@
 #include<stdio.h>
  
-int perimeter(int x, int y);
+void perimeter(int x, int y);
 
-int perimeter(int x, int y){
+void perimeter(int x, int y){
 
     int perimeter;
 
@@ -19,5 +19,6 @@ void main(){
     perimeter(length,width);
 
     
+
 
 }
